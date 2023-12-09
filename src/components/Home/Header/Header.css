@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    flex-direction: column;
+}
+.image {
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+.logoimage {
+        width: 150px;
+        height: 120px;
+        background-color: white;
+    }

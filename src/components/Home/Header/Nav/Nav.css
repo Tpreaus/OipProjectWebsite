@@ -1,0 +1,37 @@
+.nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: forestgreen;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    border: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: 0;
+    width: 33%;
+}
+
+.btn:hover {
+    background-color: grey;
+    cursor: pointer;
+
+}
+
+.btn span {
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
