@@ -4,7 +4,7 @@
 *  Create a basic website with 2 tabs Approved Class / Blogs and link to PostgreSQL database
 */
 import "./Home.css";
-import Header from "./Header/Header"
+import Header from "../Header/Header"
 import Intro from "./Intro/Intro";
 
 function Home() {

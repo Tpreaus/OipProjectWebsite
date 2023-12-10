@@ -1,5 +1,5 @@
 import "./Blog.css"
-import Header from "../Home/Header/Header"
+import Header from "../Header/Header"
 import BlogDisp from "./BlogDisp/BlogDisp"
 
 export default function Blog() {
