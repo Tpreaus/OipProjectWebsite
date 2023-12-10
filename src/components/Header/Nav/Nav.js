@@ -5,10 +5,10 @@ function Nav() {
     return (
         <div className="nav">
             <div className="buttons">
-                <Link to ="/home" className="btn">
+                <Link to ="/" className="btn">
                     <span>Home</span>
                 </Link>
-                <Link to ="/aprovedcourse" className="btn">
+                <Link to ="/approvedcourse" className="btn">
                     <span>Approved Courses</span>
                 </Link>
                 <Link to ="/blog" className="btn">

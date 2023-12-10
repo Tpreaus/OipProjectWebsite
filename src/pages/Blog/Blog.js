@@ -1,6 +1,7 @@
 import "./Blog.css"
-import Header from "../Header/Header"
-import BlogDisp from "./BlogDisp/BlogDisp"
+import Header from "../../components/Header/Header"
+import BlogDisp from "../../components/BlogDisp/BlogDisp"
+
 
 export default function Blog() {
     return (

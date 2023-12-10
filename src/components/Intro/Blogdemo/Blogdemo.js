@@ -1,5 +1,5 @@
-import BasicRating from "../../../BasicRating"
-import HoverRating from "../../../HoverRating"
+import BasicRating from "../../Rating/BasicRating"
+import HoverRating from "../../Rating/HoverRating"
 import "./Blogdemo.css"
 import blog1 from "./blog1.png"
 import blog2 from "./blog2.png"

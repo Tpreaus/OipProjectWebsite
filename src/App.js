@@ -1,14 +1,16 @@
 import './App.css';
-import Home from './components/Home/Home';
-import Blog from './components/Blog/Blog';
+import Home from './pages/Home/Home';
+import Blog from './pages/Blog/Blog';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ApprovedCourse from './pages/AprovedCourse/AprovedCourse';
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/blog" element={<Blog />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
+        <Route path='/approvedcourse' element={<ApprovedCourse />} />
       </Routes>
     </Router>
   );

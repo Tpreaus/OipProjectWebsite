@@ -1,0 +1,17 @@
+.approvedcourse {
+    display: flex;
+    flex-direction: column;
+}
+
+.approved_top_wrapper {
+    flex: 0.2;
+    background-color: darkgreen;
+    color: white;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.approved_main_wrapper {
+    flex: 0.8;
+    background-color: whitesmoke;
+}
