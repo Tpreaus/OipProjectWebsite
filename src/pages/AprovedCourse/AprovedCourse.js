@@ -1,6 +1,7 @@
 import "./AprovedCourse.css"
 import Header from "../../components/Header/Header"
 import CourseDisp from "../../components/CourseDisp/CourseDisp"
+import CourseSearch from "../../components/CourseDisp/CourseSearch/CourseSearch"
 
 export default function ApprovedCourse() {
     return(
@@ -8,7 +9,8 @@ export default function ApprovedCourse() {
         <div className="approved_top_wrapper">
             <Header/>
         </div>
-        <div className="aproved_main_wrapper">
+        <div className="approved_main_wrapper">
+            <CourseSearch/>
             <CourseDisp/>
         </div>
     </div>

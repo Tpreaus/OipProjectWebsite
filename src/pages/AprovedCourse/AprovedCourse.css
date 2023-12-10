@@ -12,6 +12,11 @@
 }
 
 .approved_main_wrapper {
+    display: flex;
+    flex-direction: column;
     flex: 0.8;
     background-color: whitesmoke;
+    width: 100%;
+    align-items: center;
+    padding-top: 10px;
 }
