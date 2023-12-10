@@ -5,9 +5,9 @@ import logo from "./AUI-logo.png"
 function Header() {
     return(
         <div className="header">
-            <div className="image">
+            <div className="headerimage">
                 <img src={logo} className="logoimage"/>
-                <h1>Approved Class and Blog for Study Abroad</h1>
+                <h1>Approved Classes and Blogs for Study Abroad</h1>
             </div>  
             <div className="navbar">
                 <Nav/>

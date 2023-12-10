@@ -1,19 +1,17 @@
 .home {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-.top_wrapper {
-    display: flex;
-    flex-direction: row;
+.top_wrapper { 
     flex: 0.2;
-    background-color: forestgreen;
+    background-color: darkgreen;
     color: white;
-    align-items: top;
+    align-items: flex-start;
+    overflow: hidden;
 }
 
 .main_wrapper {
-    flex-direction: row;
     flex: 0.8;
-    background-color: grey;
+    background-color: whitesmoke;
 }
