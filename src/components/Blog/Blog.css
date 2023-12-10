@@ -1,0 +1,17 @@
+.blog {
+    display: flex;
+    flex-direction: row;
+}
+
+.blog_top_wrapper {
+    flex: 0.2;
+    background-color: darkgreen;
+    color: white;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.blog_main_wrapper {
+    flex: 0.8;
+    background-color: whitesmoke;
+}

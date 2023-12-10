@@ -1,19 +1,19 @@
 import "./Nav.css";
-
+import { Link } from 'react-router-dom';
 
 function Nav() {
     return (
         <div className="nav">
             <div className="buttons">
-                <button className="btn">
+                <Link to ="/home" className="btn">
                     <span>Home</span>
-                </button>
-                <button className="btn">
+                </Link>
+                <Link to ="/aprovedcourse" className="btn">
                     <span>Approved Courses</span>
-                </button>
-                <button className="btn">
+                </Link>
+                <Link to ="/blog" className="btn">
                     <span>Blogs</span>
-                </button>
+                </Link>
             </div>
         </div>
     )
