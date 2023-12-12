@@ -3,33 +3,36 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .blogsquarecontainer {
-    display: flex;
-    flex-direction: row; /* Display blogsquares horizontally */
-    justify-content: center;
-    gap: 20px; /* Adjust the gap between blogsquares as needed */
-  }
-  
-  .blogsquare {
-    padding: 10px;
-    width: 100%;
-    max-width: 400px; /* Set a maximum width if needed */
-    margin: 10px; /* Add margin for spacing */
-    text-align: center;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    border-radius: 25px;
-  }
+  } 
+.blogsquarecontainer a {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Makes the text color the same as the parent */
+}
+.blogsquarecontainer {
+  display: flex;
+  flex-direction: row; /* Display blogsquares horizontally */
+  justify-content: center;
+  align-items: center; /* Center blogsquares vertically */
+  gap: 20px; /* Adjust the gap between blogsquares as needed */
+}
 
-  .blogsquare:hover {
+.blogsquare {
+  flex: 1; /* Each blogsquare takes up an equal amount of space */
+  padding: 10px; /* Adjust the padding */
+  max-width: 350px; /* Adjust the maximum width */
+  margin: 15px; /* Adjust the margin */
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 25px;
+}
+
+.blogsquare:hover {
     background-color: grey;
-  }
+}
   
-  
-  .blogimage {
+.blogimage {
     border-style: solid;
     border-color: black;
     border-width: 1px;
@@ -37,7 +40,7 @@
     height: 200px; /* Set a fixed height for consistency */
     object-fit: cover; /* Maintain aspect ratio and cover the container */
     display: block;
-  }
+}
   
   
   
