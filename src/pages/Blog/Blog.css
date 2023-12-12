@@ -1,6 +1,7 @@
 .blog {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    overflow: auto;
 }
 
 .blog_top_wrapper {
@@ -8,10 +9,10 @@
     background-color: darkgreen;
     color: white;
     align-items: flex-start;
-    overflow: hidden;
 }
 
 .blog_main_wrapper {
     flex: 0.8;
     background-color: whitesmoke;
+    overflow: auto;
 }
