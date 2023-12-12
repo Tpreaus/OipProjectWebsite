@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import BasicRating from "../../Rating/BasicRating"
-import HoverRating from "../../Rating/HoverRating"
 import "./Blogdemo.css"
 import blog1 from "./blog1.png"
 import blog2 from "./blog2.png"
@@ -12,7 +11,7 @@ function Blogdemo() {
             <div className="blogsquarecontainer">
                 <Link to="/blog">
                     <div className="blogsquare">
-                        <img src={blog1} className="blogimage"/>
+                        <img src={blog1} alt="BlogPic" className="blogimage"/>
                         <p><BasicRating/></p>
                         <h2>My Time in Ifrane</h2>
                         <p>While exploring the wonders of Aui ...</p>
@@ -20,7 +19,7 @@ function Blogdemo() {
                 </Link>
                 <Link to="/blog">
                     <div className="blogsquare">
-                        <img src={blog2} className="blogimage"/>
+                        <img src={blog2} alt="BlogPic" className="blogimage"/>
                         <p><BasicRating/></p>
                         <h2>Exploring The Blue City of Morocco</h2>
                         <p>This city really was something else ...</p>
@@ -28,7 +27,7 @@ function Blogdemo() {
                 </Link>
                 <Link to="/blog">
                     <div className="blogsquare">
-                        <img src={blog3} className="blogimage"/>
+                        <img src={blog3} alt="BlogPic" className="blogimage"/>
                         <p><BasicRating/></p>
                         <h2>The Dessert</h2>
                         <p>I have sand everywhere ...</p>
@@ -38,5 +37,4 @@ function Blogdemo() {
         </div>
     )
 }
-
 export default Blogdemo;
