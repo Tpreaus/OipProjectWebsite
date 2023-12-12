@@ -4,7 +4,7 @@
 }
 
 .top_wrapper { 
-    flex: 0.2;
+    flex: 0.15;
     background-color: darkgreen;
     color: white;
     align-items: flex-start;
@@ -12,6 +12,14 @@
 }
 
 .main_wrapper {
-    flex: 0.8;
+    flex: 0.75;
     background-color: whitesmoke;
+}
+
+.footer_wrapper {
+    flex: 0.1;
+    background-color: darkgreen;
+    color: white;
+    align-items: flex-start;
+    overflow: hidden;
 }

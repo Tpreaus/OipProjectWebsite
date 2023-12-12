@@ -1,6 +1,7 @@
 import "./Blog.css"
 import Header from "../../components/Header/Header"
 import BlogDisp from "../../components/BlogDisp/BlogDisp"
+import Footer from "../../components/Footer/Footer"
 
 
 export default function Blog() {
@@ -11,6 +12,9 @@ export default function Blog() {
             </div>
             <div className="blog_main_wrapper">
                 <BlogDisp/>
+            </div>
+            <div className="blog_footer_wrapper">
+                <Footer/>
             </div>
         </div>
     )

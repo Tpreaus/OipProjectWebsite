@@ -6,6 +6,7 @@
 import "./Home.css";
 import Header from "../../components/Header/Header"
 import Intro from "../../components/Intro/Intro";
+import Footer from "../../components/Footer/Footer";
 
 function Home() {
     return (
@@ -15,6 +16,9 @@ function Home() {
             </div>
             <div className="main_wrapper">
                 <Intro/>
+            </div>
+            <div className="footer_wrapper">
+                <Footer/>
             </div>
         </div>
     )

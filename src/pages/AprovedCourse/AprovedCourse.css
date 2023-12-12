@@ -19,4 +19,13 @@
     width: 100%;
     align-items: center;
     padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.approved_footer_wrapper {
+    flex: 0.1;
+    background-color: darkgreen;
+    color: white;
+    align-items: flex-start;
+    overflow: hidden;
 }
