@@ -1,4 +1,3 @@
-// Admin.js
 import React from 'react';
 import './Admin.css';
 
@@ -30,6 +29,25 @@ function Admin() {
         });
     };
 
+    const handleBlogSubmit = (event) => {
+        event.preventDefault();
+        const blogtitle = event.target.elements.blogtitle.value;
+        const blogtext = event.target.elements.blogtext.value;
+      
+        fetch('http://localhost:3001/add-blog', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ blogtitle, blogtext }),
+        })
+          .then(response => response.json())
+          .then(data => console.log(data))
+          .catch((error) => {
+            console.error('Error:', error);
+          });
+      };
+
     return (
         <div className="admin">
             <div className="admin_wrapper">
@@ -49,8 +67,16 @@ function Admin() {
                         <button type="submit">Submit</button>
                     </form>
                 </fieldset>
-                <div className='admin_blog'>
-                </div>
+                <fieldset className='admin_blog'>
+                    <legend>Add Blog Post</legend>
+                    <form onSubmit={handleBlogSubmit}>
+                        <label>Blog Title:</label>
+                        <input type="text" name="blogtitle" />
+                        <label>Blog Text:</label>
+                        <input type="text" name="blogtext" />
+                        <button type="submit">Submit</button>
+                    </form>
+                </fieldset>
             </div>
         </div>
     );
