@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ApprovedCourse from './pages/AprovedCourse/AprovedCourse';
 import Admin from './pages/Admin/Admin';
 
-function App() {
+export default function App() {
   return (
     <Router>
       <Routes>
@@ -17,6 +17,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;
-
